@@ -1,0 +1,23 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.5.0\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-source
+1.5
+-noindex
+-notree
+-nohelp
+-nonavbar
+-d
+C:\Documents and Settings\User\My Documents\pp\doc
+-classpath
+C:\BlueJ\lib\bluejcore.jar;C:\BlueJ\lib\junit.jar;C:\Documents and Settings\User\My Documents\pp
+C:\Documents and Settings\User\My Documents\pp\foodmall.java
+<---- end of javadoc command ---->
+Loading source file C:\Documents and Settings\User\My Documents\pp\foodmall.java...
+C:\Documents and Settings\User\My Documents\pp\foodmall.java:7: '}' expected
+^
+1 error

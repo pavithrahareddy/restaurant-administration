@@ -1,0 +1,38 @@
+//
+import java.io.*;
+public class foodmall
+{
+public static void main(String args[])throws IOException
+{
+InputStreamReader read=new InputStreamReader(System.in);
+BufferedReader in=new BufferedReader(read);
+int i,p;
+p=0;
+int choice[];
+int no[];
+char op;
+double price[];
+String mcburgers[]={"Veg McMuffin","VegSupreme McMuffin","Hot Cakes","Mc Egg","Egg and Cheese McMuffin","Sausage McMuffin","Sausage McMuffin with Egg","McAloo Tikki","McVeggie","Masala Grill Veg","McSpicy Paneer","Chicken McGrill","Chicken Maharaja Mac","Masala Grill Chicken","Mc Chicken","Filet-o-Fish","MxSpicy Chicken"};
+int money[]={2,4,6,4,46,4,4,3,3,3,3,35,4,3,6,8,89};
+for(i=0;i<17;i++)
+{
+System.out.println(" "+i+" "+"-"+" "+mcburgers[i]+" " +"-"+" "+"Rs"+money[i]);
+}
+System.out.println();
+do
+{
+System.out.println("Please enter d burger number you want");
+choice[p]=Integer.parseInt(in.readLine());
+System.out.println("please enter d number of "+mcburgers[choice[p]]+" you want");
+no[p]=Integer.parseInt(in.readLine());
+price[p]=choice[p]*no[p];
+System.out.println("do you want any other burger? enter y for yes n for no");
+op=in.readLine();
+if(op==y);
+{
+p=p+1;
+}
+}
+while(op==y);
+}
+}
